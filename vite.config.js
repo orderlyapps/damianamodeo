@@ -6,7 +6,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/playground/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/damianamodeo/' : '/',
   plugins: [
     TanStackRouterVite({ autoCodeSplitting: true }), 
     viteReact(),
@@ -14,8 +14,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Playground',
-        short_name: 'Playground',
+        name: 'Damian Amodeo',
+        short_name: 'Damian Amodeo',
         description: 'Progressive Web App',
         theme_color: '#000000',
         icons: [

@@ -15,7 +15,8 @@ function App() {
         gap: "1rem",
       }}
     >
-      <code style={{ fontSize: "2rem" }}>Playground</code>
+      <code style={{ fontSize: "2rem" }}>Damian Amodeo</code>
+      This is my website and a way to tell about myself.
       <Link to="/mantine/buttons">Mantine</Link>
     </div>
   );

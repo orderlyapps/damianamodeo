@@ -1,14 +1,14 @@
 {
-  "name": "playground",
+  "name": "damianamodeo",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3000",
+    "dev": "vite --port 4000",
     "start": "vite --port 3000",
     "build": "vite build && tsc",
     "serve": "vite preview",
     "test": "vitest run",
-    "deploy": "pnpm run build && gh-pages -d dist && echo '\n\n\nGo to https://github.com/orderlyapps/playground/actions\n\n\n'"
+    "deploy": "pnpm run build && gh-pages -d dist && echo '\n\n\nGo to https://github.com/orderlyapps/damianamodeo/actions\n\n\n'"
   },
   "dependencies": {
     "@mantine/carousel": "^8.0.1",
