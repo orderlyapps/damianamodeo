@@ -1,1 +1,0 @@
-import{j as n,L as e}from"./index-DJW6srJ3.js";const o=function(){return n.jsxs("div",{style:{textAlign:"center",padding:"2rem",display:"flex",flexDirection:"column",gap:"1rem"},children:[n.jsx("code",{style:{fontSize:"2rem"},children:"Damian Amodeo"}),n.jsx(e,{to:"/mantine/buttons",children:"Mantine"})]})};export{o as component};
